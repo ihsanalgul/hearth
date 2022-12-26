@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "animation"
+version = "0.1.0"
+description = "Heearth rate graph animation"
+authors = ["İhsan Algül <algulihsan@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
